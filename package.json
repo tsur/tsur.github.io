@@ -1,0 +1,21 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Zuri's Private Portfolio",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tsur/tsur.github.io.git"
+  },
+  "author": "Tsur <prucheta@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tsur/tsur.github.io/issues"
+  },
+  "homepage": "https://github.com/Tsur/tsur.github.io",
+  "devDependencies": {
+    "preprocess": "^3.0.2"
+  }
+}

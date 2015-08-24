@@ -1,0 +1,51 @@
+#hex-menu{height:370px;width:410px;margin-top:-185px;margin-left:-205px;background:url('../images/webtop/hex_menu_410_gray.png') transparent no-repeat;z-index:1;}
+#hex-menu a{color:#E2E2E2;font-weight:bold;text-decoration:none;cursor:pointer;}
+#hex-menu .align{position:absolute;width:77px;height:33px;text-align:center;line-height:33px;}
+#xmenu-n{left:165px;top:12px;}
+#xmenu-nw{left:12px;top:106px;}
+#xmenu-ne{left:319px;top:106px;}
+#xmenu-c{left:166px;top:168px;}
+#xmenu-sw{left:12px;bottom:107px;}
+#xmenu-se{left:319px;bottom:107px;}
+#xmenu-s{left:165px;bottom:14px;}
+.effect_h{width:15px;height:15px;position:absolute;background:url('../images/webtop/effect_h.png') transparent no-repeat;}
+
+.app_outer{position:absolute;top:50%;left:50%;width:200px;height:200px;background:url('../images/webtop/app_ext_gray.png') transparent repeat;z-index:101;margin-top:-100px;margin-left:-100px;-webkit-border-radius: 15px;/*-moz-border-radius: 40px 15px 40px 15px;*/-moz-border-radius:15px;border-radius:15px;}
+
+.app_outer .app_tool_buttons{position:absolute;top:8px;right:10px;z-index:104;}
+.app_outer .app_tool_buttons a{cursor:pointer;}
+
+/* USE THIS!!!
+.app_outer .app_tool{position:absolute;top:5px;left:5px;height:32px;width:190px;
+background:url('../img/app_int_black.png') transparent repeat;-webkit-border-top-left-radius: 15px;-moz-border-radius-topleft:15px;border-top-left-radius:15px;-webkit-border-top-right-radius: 15px;-moz-border-radius-topright:15px;border-top-right-radius:15px;border-bottom:1px dotted gray;z-index:4;}
+*/
+.app_outer .app_tool{position:absolute;top:5px;left:5px;height:32px;width:190px;
+background:url('../images/webtop/app_int_black.png') transparent repeat;-webkit-border-top-left-radius: 10px;-moz-border-radius-topleft:10px;border-top-left-radius:10px;-webkit-border-top-right-radius: 10px;-moz-border-radius-topright:10px;border-top-right-radius:10px;border-bottom:1px dotted gray;z-index:103;}
+
+.app_outer .app_tool p{margin-left:10px;line-height:33px;font-size:13px;font-weight:bold;color:#E2E2E2;}
+
+*.unselectable {-moz-user-select: -moz-none;-khtml-user-select: none;-webkit-user-select: none;-ms-user-select: none;user-select: none;-webkit-touch-callout: none;}
+
+/*El width de container el mismo que el de tool. El height sera el de outer menos el de tool menos 10(10 por los margenes). El top de container sera 5(por el margen superior) mas el height de tool*/
+.app_outer .app_container{position:absolute;left:5px;top:37px;width:190px;height:126px;background:url('../images/webtop/app_int_black.png') transparent repeat;overflow:hidden;}
+
+.app_outer .app_bottom{position:absolute;top:162px;left:5px;height:22px;width:180px;
+background:url('../images/webtop/app_int_black.png') transparent repeat;-webkit-border-bottom-left-radius: 10px;-moz-border-radius-bottomleft:10px;border-bottom-left-radius:10px;-webkit-border-bottom-right-radius: 10px;-moz-border-radius-bottomright:10px;border-bottom-right-radius:10px;border-top:1px dotted gray;z-index:103;padding:5px;}
+.app_outer .app_bottom p{margin-left:5px;line-height:23px;font-size:12px;font-weight:bold;color:#E2E2E2;}
+
+.app_outer .app_container iframe{position:absolute;height:100%;width:100%;}
+.app_outer .app_container .iframe-overlap{background-color:transparent;position:absolute;height:100%;width:100%;z-index:102;}
+/*.app{width:100%;}*/
+.app_rs_top_left{position:absolute;width:10px;height:15px;cursor:nw-resize;z-index:102;}
+.app_rs_top{position:absolute;left:10px;width:180px;height:3px;cursor:n-resize;}
+.app_rs_top_right{position:absolute;left:190px;width:10px;height:15px;cursor:ne-resize;z-index:102;}
+.app_rs_left{position:absolute;top:15px;width:5px;height:170px;cursor:w-resize;}
+.app_rs_right{position:absolute;top:15px;left:195px;width:5px;height:170px;cursor:e-resize;}
+.app_rs_down_left{position:absolute;bottom:0%;width:10px;height:15px;cursor:sw-resize;z-index:102;}
+.app_rs_down{position:absolute;bottom:0%;left:10px;width:180px;height:5px;cursor:s-resize;}
+.app_rs_down_right{position:absolute;bottom:0%;left:190px;width:10px;height:15px;cursor:se-resize;z-index:102;}
+.xmenu_icon{position:relative;top:4px;width:28px;right:1px;cursor:pointer;}
+
+.app_outer{
+	opacity: 0.92;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="UTF-8" />
+		<title>Zuri's Portfolio</title>
+        <base href="./"/>
+		<link rel="shortcut icon" href="./favicon.ico" />
+		<link rel="stylesheet" href="media/css/index.css" />
+        <link rel="stylesheet" href="media/css_webtops_unique/webtop.css" />
+        <link rel="stylesheet" href="media/css_webtops_unique/default/webtop_sidebar.css" />
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script> 
+        <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>  
+        <script src="lib/jquery/jquery.webtop.resize.js"></script>  
+        <script src="lib/jquery/jquery.date.js"></script>  
+        <script src="lib/jquery/jquery.scrollTo-min.js"></script>  
+        <script src="lib/jquery/runner.js"></script>	
+	</head>
+	<body class="cliping noselect">
+        <section id="loading" class="loading" tabindex="1">
+            <article id="loading_outer" class="loading_outer">
+                <p id="loading_pmpt" class="loading_prompt">guest@my-portfolio-host:</p>
+                <p id="loading_command0" class="loading_command">Loading </p>
+                <img id="loading_cursor" class="loading_cursor" src="media/images/underscore8.gif" />
+                <noscript>
+                <p style="display:block;">js off</p>
+                </noscript>
+                <!-- <p id="loadingf8" class="loading_output">Welcome to my Portfolio</p> -->
+                <script>
+                <!--
+
+                    initTime = new Date().getTime();
+                    booterMsg = [
+                    
+                        "Loaded in",
+                        "Starting up System Configuration",
+                        "Loading Libraries ...",
+                        "Loading Multimedia resources ...",
+                        "Issue the command 'exit' to quit the console mode"
+                    ];
+                //-->
+                </script>
+            </article>
+            <!-- Otro article podria ser por ejemplo para un editor de text embebido en la consola que ocupa toda la pantalla-->
+        </section>
+        <section>
+            <div id="browser_frame" class="cliping darkness" data-bind="customVisible:mode, logged:user.id">
+                <img id="wallpaper_img" class="noselect"/>
+                <div id="img_blocking" class="cliping dis_hidden noselect">
+                    <div class="sidebar-menu">
+                        <ul>
+                        <li><a href="https://github.com/Tsur" target="_blank"><!-- @echo SVG_GITHUB --></a></li>
+                        <li class="npm-li"><a href="https://www.npmjs.com/~tsur" target="_blank"><!-- @echo SVG_NPM --></a></li>
+                        <li><a href="https://es.linkedin.com/in/zuripabon" target="_blank"><!-- @echo SVG_IN --></a></li>
+                        <li><a href="https://tsur.github.io/blog/" target="_blank"><!-- @echo SVG_BLOG --></a></li>
+                        <li><a href="https://twitter.com/tsurshaddai" target="_blank"><!-- @echo SVG_TWITTER --></a></li>
+                        <li><a href="http://codepen.io/Tsur/" target="_blank"><!-- @echo SVG_CODEPEN --></a></li>
+                        <li><a href="callto:+34661188615"><!-- @echo SVG_SKYPE --></a></li>
+                        <li><a id="terminal-icon"><!-- @echo SVG_TERMINAL --></a></li>
+                        <!-- <li><a><i class="icon skype"></i></a></li> -->
+                        </ul>
+                    </div>
+                    <div id="hex-menu" class="main dis_hidden noselect rotating">
+                        <ul id="hex-menu-ul" class="cliping">
+                            <li id="xmenu-n" class="align" data-bind="click:launchApp, draggable:hexmDragOpt,droppable:hexmDropOpt, attr:{rel:user.xmenu_n_rel}">
+                                <p><img class="xmenu_icon" data-bind="attr:{src:user.xmenu_n_src}"/></p>
+                            </li>
+                            <li id="xmenu-nw" class="align" data-bind="click:launchApp, draggable:hexmDragOpt,droppable:hexmDropOpt,attr:{rel:user.xmenu_nw_rel}">
+                                <p><img class="xmenu_icon" data-bind="attr:{src:user.xmenu_nw_src}"/></p>
+                            </li>
+                            <li id="xmenu-ne" class="align" data-bind="click:launchApp, draggable:hexmDragOpt, droppable:hexmDropOpt,attr:{rel:user.xmenu_ne_rel}">
+                                <p><img class="xmenu_icon" data-bind="attr:{src:user.xmenu_ne_src}"/></p>
+                            </li>
+                            <li id="xmenu-c" class="align" data-bind="click:launchApp,draggable:hexmDragOpt,droppable:hexmDropOpt,attr:{rel:user.xmenu_c_rel}">
+                                <p><img class="xmenu_icon" data-bind="attr:{src:user.xmenu_c_src}"/></p>
+                            </li>
+                            <li id="xmenu-sw" class="align" data-bind="click:launchApp,draggable:hexmDragOpt,droppable:hexmDropOpt, attr:{rel:user.xmenu_sw_rel}">
+                                <p><img class="xmenu_icon" data-bind="attr:{src:user.xmenu_sw_src}"/></a></p>
+                            </li>
+                            <li id="xmenu-se" class="align" data-bind="click:launchApp,draggable:hexmDragOpt,droppable:hexmDropOpt, attr:{rel:user.xmenu_se_rel}">
+                                <p><img class="xmenu_icon" data-bind="attr:{src:user.xmenu_se_src}"/></p>
+                            </li>
+                            <li id="xmenu-s" class="align" data-bind="click:launchApp,draggable:hexmDragOpt,droppable:hexmDropOpt, attr:{rel:user.xmenu_s_rel}">
+                                <p><img class="xmenu_icon" data-bind="attr:{src:user.xmenu_s_src}"/></p>
+                            </li>
+                        </ul>
+                    <div>
+                </div>
+            </div>
+        </section>
+        <script src="bundle.js"></script>
+	</body>
+</html>

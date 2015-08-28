@@ -9,7 +9,7 @@ function Help(shell) {
     'projects': 'Discover the projects I am currently working on during my leisure time',
     'experiments': 'Check it out some of my experiments',
     'wishlist': 'Check my list of whishes and if possible, make it come to true ;)',
-    'desktop': 'Enable and disable media desktop interactions',
+    //'desktop': 'Enable and disable media desktop interactions',
     'clear': 'Clean up all the terminal messages',
     'reboot': 'Reboot the system',
     'help': 'Display this help menu and exit',

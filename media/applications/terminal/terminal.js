@@ -67,7 +67,7 @@ function Shell(id) {
 
 
 //Internal and natives apps
-Shell.defaultCommands = ['me', 'ping', 'status', 'npm', 'experiments', 'projects', 'wishlist', 'desktop', 'clear', 'echo', 'exit', 'reboot', 'help'];
+Shell.defaultCommands = ['me', 'ping', 'status', 'npm', 'experiments', 'projects', 'wishlist', 'clear', 'echo', 'exit', 'reboot', 'help'];
 
 if (window.localStorage) {
   if (window.localStorage.console_history) {

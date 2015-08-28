@@ -43,8 +43,8 @@ Terminal.options = {
 
   //For extra-plugins
   resize: 'all',
-  width: '450px',
-  height: '250px',
+  width: '650px',
+  height: '400px',
   minWidth: '300px',
   minHeight: '300px',
   maxWidth: undefined,

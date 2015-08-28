@@ -73,6 +73,17 @@ $('#terminal-icon').click(function() {
 
 });
 
+//$('#blog-icon').click(function() {
+//
+//  Runner.execute('blog');
+//
+//});
+//
+//$('#github-icon').click(function() {
+//
+//  Runner.execute('github');
+//
+//});
 
 //Change css position in desktop top bar
 

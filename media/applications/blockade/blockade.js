@@ -8,7 +8,6 @@ Blockade.main = function(app) {
 
 };
 
-
 Blockade.options = {
 
   screenName: 'Blockade Experiment',

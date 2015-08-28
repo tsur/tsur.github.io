@@ -95,6 +95,8 @@ opacity: 0.81;
 .loading_outer{padding:8px 0;}
 .loading .loading_command{font-weight:normal;position:relative;left:3px;}
 .loading .loading_output{display:block;position:relative;left:4px;}
+.loading .loading_output a{ text-decoration: none; color: white; border-bottom: 1px dotted white;}
+.loading .loading_output a:hover{ text-decoration: none; color: #eddfb6;}
 .loading .loading_output_empty{display:block;position:relative;left:4px;margin-top:10px;}
 .loading_cursor{position:relative;left:4px;top:2px;}
 .loading_tab{position:relative;right:7px;}
@@ -114,6 +116,11 @@ disaplay:inline;
 /*width:20%;*/
 padding:0 15px;
 text-align:justify;
+}
+
+.tab td a {
+
+    text-decoration:none;color:#4aa3c4;font-weight:bold;
 }
 
 /*

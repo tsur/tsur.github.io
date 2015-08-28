@@ -17,7 +17,7 @@ function Experiments(shell) {
 
   };
 
-  var output = '\n\nCheck below some of my experiments. You may try a live demo by issuing:\n\nexperiments --run (experiment-name)\n\n> experiments run gamelife\n\n[table class="tab"]';
+  var output = '\n\nCheck below some of my experiments. You may fork me on [link=https://github.com/Tsur]Github[/link] or try a live demo by issuing:\n\nexperiments --run (experiment-name)\n\ni.e. experiments run gamelife\n\n[table class="tab"]';
 
   for (p in projects) {
 

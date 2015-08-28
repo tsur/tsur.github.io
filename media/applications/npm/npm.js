@@ -18,7 +18,7 @@ function Npm(shell) {
 
   }
 
-  shell.output(output + "[/table]\n", false);
+  shell.output(output + "[/table]\n\n\n Go to [link=https://www.npmjs.com/~tsur]npm[/link] for further information\n\n", false);
   shell.end();
 
 };

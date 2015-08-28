@@ -489,6 +489,7 @@ Shell.prototype.output = function(output, c) {
       if (val.indexOf('table') != -1) {
 
         val = val.replace(/\[color\=(.+?)\](.+?)\[\/color\]/g, '<span style="color:$1;font-weight:bold;">$2</span>');
+        val = val.replace(/\[link\=(.+?)\](.+?)\[\/link\]/g, '<a href="$1" target="_blank">$2</a>');
         val = val.replace(/\[/g, '<');
         val = val.replace(/\]/g, '>');
 
@@ -497,6 +498,7 @@ Shell.prototype.output = function(output, c) {
       } else {
 
         val = val.replace(/\[color\=(.+?)\](.+?)\[\/color\]/g, '<span style="color:$1;font-weight:bold;">$2</span>');
+        val = val.replace(/\[link\=(.+?)\](.+?)\[\/link\]/g, '<a href="$1" target="_blank">$2</a>');
 
         if (val === '') {
           $('<p class="loading_output_empty"></p>').appendTo('#loading_outer' + self.sid);

@@ -5,6 +5,7 @@
 		<title>Zuri's Portfolio</title>
         <base href="./"/>
 		<link rel="shortcut icon" href="./favicon.ico" />
+        <link href='https://fonts.googleapis.com/css?family=Orbitron:400,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="media/css/index.css" />
         <link rel="stylesheet" href="media/css/webtop.css" />
         <link rel="stylesheet" href="media/css/webtop_sidebar.css" />
@@ -19,28 +20,12 @@
         <section id="loading" class="loading" tabindex="1">
             <article id="loading_outer" class="loading_outer">
                 <p id="loading_pmpt" class="loading_prompt">guest@my-portfolio-host:</p>
-                <p id="loading_command0" class="loading_command">Loading </p>
+                <p class="loading_command">Loading system resources ...</p>
                 <img id="loading_cursor" class="loading_cursor" src="media/images/underscore8.gif" />
                 <noscript>
                 <p style="display:block;">js off</p>
                 </noscript>
-                <!-- <p id="loadingf8" class="loading_output">Welcome to my Portfolio</p> -->
-                <script>
-                <!--
-
-                    initTime = new Date().getTime();
-                    booterMsg = [
-                    
-                        "Loaded in",
-                        "Starting up System Configuration",
-                        "Loading Libraries ...",
-                        "Loading Multimedia resources ...",
-                        "Issue the command 'exit' to quit the console mode"
-                    ];
-                //-->
-                </script>
             </article>
-            <!-- Otro article podria ser por ejemplo para un editor de text embebido en la consola que ocupa toda la pantalla-->
         </section>
         <section>
             <div id="browser_frame" class="cliping darkness" data-bind="customVisible:mode, logged:user.id">

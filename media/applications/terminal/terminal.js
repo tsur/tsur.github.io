@@ -357,6 +357,7 @@ Shell.prototype.action = {
 
     window.location.href = window.location.href;
     window.localStorage['apppath'] = {};
+    window.localStorage['status'] = undefined;
   },
 
   echo: function(a) {

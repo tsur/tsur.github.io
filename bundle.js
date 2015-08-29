@@ -63,7 +63,7 @@ function initPortfolioPreview(fn) {
     "> to be honest, my life is not so interesting. I do often spend most of my time at work or home, but I do actually like it",
     // "> but I do actually like it, I like the stillness and yeahh, also the silence. Well, I do actually love thinking and silence is always a good partner for it",
     // "> I try to grab and learn all those software pattern and methodologies which are straightforward and simple enough to apply to day-in day out programming challenges",
-    "> I do love maths in the widest sense, and programming becomes the way to touch it",
+    "> I do love maths in the widest sense, and programming becomes the way to know more about it",
     "> the Unix philosophy and the functional programming paradigm are both, when possible, the shape of my programming habits",
     "> My long term goal is to learn from every area of computer science, including information retrieval, artificial intelligence",
     "> machine learning, natural language processing, distributed computing, networking, security, data compression and user interface design",
